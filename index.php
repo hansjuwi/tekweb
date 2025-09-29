@@ -1,8 +1,6 @@
 <?php include "head.php"; ?>
 <body>
-    <p> Halo </p>
-    <div id="text"> ini text </div>
-<h1>Hello from Dr. Chuck's HTML Page</h1>
+
 <p>
 <?php
     for($i=0;$i<=10;$i++)
@@ -16,13 +14,14 @@
 ?>
 </p>
 <p>Yes  <?php echo "Halo"; ?>  another paragraph.</p>
-
+<div id="text"></div>
+<div id="text2"></div>
 </body>
 <script>
     x = 5;
     y = 10;
     document.getElementById("text").innerHTML = "ini tulisan";
-
+    document.getElementById("text2").innerHTML = "ini tulisan";
 </script>
 
 
